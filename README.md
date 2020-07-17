@@ -1,21 +1,21 @@
 # python-api-challenge
 
-## WeatherPy ##
+### WeatherPy ###
 *Overview,*
 *WeatherPy: Running Code,*
 *Figures,*
 *Analysis Report,*
 *Infographic*
 
-## VacationPy ##
+### VacationPy ###
 *Overview,*
 *VacationPy: Running Code,*
 *Maps*
 
 *Techonlogies used*
 
-### WeatherPy ###
-## Overview ##
+## WeatherPy ##
+### Overview ###
 *WeatherPy*
 In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
 Your first requirement is to create a series of scatter plots to showcase the following relationships:
@@ -40,7 +40,7 @@ Your second requirement is to run linear regression on each relationship, only t
 After each pair of plots explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
 Optional You will be creating multiple linear regression plots. To optimize your code, write a function that creates the linear regression plots.
 
-## WeatherPy: Running Code ##
+### WeatherPy: Running Code ###
 ![](Assets/hw6-1.png)
 ![](Assets/hw6-2.png)
 ![](Assets/hw-6-3a.png)
@@ -58,27 +58,27 @@ Optional You will be creating multiple linear regression plots. To optimize your
 ![](Assets/hw-6-14.png)
 ![](Assets/hw-6-15.png)
 
-## Figures ##
+### Figures ###
 ![](Assets/../output_data/Fig1.png)
 ![](Assets/../output_data/Fig2.png)
 ![](Assets/../output_data/Fig3.png)
 ![](Assets/../output_data/Fig4.png)
 
-## Analysis Report ##
-### TEMPERATURE AND LATITUDE ###
+### Analysis Report ###
+##### TEMPERATURE AND LATITUDE #####
 At this time of the year, the temperature has a "bell shape" and is almost symmetrical with the 0 Degree Latitude being the axis. The highest temperature are around the Equator. the tilt of the earth makes that the Southern Hemisphere is in winter and the Northern Hemisphere is in summer. If it was winter in the Northern Hemisphere, we could observe a negative regression with more data point grouped in the high temperature in the Southern Hemisphere and the opposite in the Northern Hemisphere.
 
-### CLOUDINESS AND LATITUDE ###
+##### CLOUDINESS AND LATITUDE #####
 There is no strong relationship between Latitude and cloudiness. However, there is a concentration at the 60 degree Latitude and the Equator. Because, the air rises, the atmospheric pressure is low and the climate is wet, we have more clouds in these regions. On the scattered plot, we can observe a concentration of cities of a 100% cloudiness at the Equator and the 60 degree Latitude.
 
-### WIND SPEED AND LATITUDE ###
+##### WIND SPEED AND LATITUDE #####
 There is no strong relation between wind speed and Latitude. More data points are between 0mph and 10mph. However, we can observe that there are data concentration at the Equator, the 60 degree Latitude. This is explained by the jet streams who met at these latitude (60 degree Lat.: where Westlies stream and Polar Easteries meet / Equator: it is where the North/East and South/East trade winds meet). If we were in in the winter period we would observe more strong winds around the 30 and 40 degree Latitude and on the 60 degree Latitude.
 
-## Infographic ##
+### Infographic ###
 ![](Assets/weather_info.png)
 
-### VacationPy ###
-## Overview ##
+## VacationPy ##
+### Overview ###
 
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
@@ -91,7 +91,7 @@ Now let's use your skills in working with weather data to plan future vacations.
 * Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
 
-## WeatherPy: Running Code ##
+### WeatherPy: Running Code ###
 ![](Assets/hotal1.png)
 ![](Assets/hotel2.png)
 ![](Assets/hotel3.png)
@@ -100,7 +100,7 @@ Now let's use your skills in working with weather data to plan future vacations.
 ![](Assets/hotel7.png)
 
 
-## MAPS##
+### MAPS ###
 ![](Assets/humidity%20map.png)
 ![](Assets/humidity%20map%20with%20hotel.png)
 ![](Assets/videomap%20hotel.gif)
