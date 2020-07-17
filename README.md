@@ -58,12 +58,6 @@ Optional You will be creating multiple linear regression plots. To optimize your
 ![](Assets/hw-6-14.png)
 ![](Assets/hw-6-15.png)
 
-### Figures ###
-![](Assets/../output_data/Fig1.png)
-![](Assets/../output_data/Fig2.png)
-![](Assets/../output_data/Fig3.png)
-![](Assets/../output_data/Fig4.png)
-
 ### Analysis Report ###
 ##### TEMPERATURE AND LATITUDE #####
 At this time of the year, the temperature has a "bell shape" and is almost symmetrical with the 0 Degree Latitude being the axis. The highest temperature are around the Equator. the tilt of the earth makes that the Southern Hemisphere is in winter and the Northern Hemisphere is in summer. If it was winter in the Northern Hemisphere, we could observe a negative regression with more data point grouped in the high temperature in the Southern Hemisphere and the opposite in the Northern Hemisphere.
